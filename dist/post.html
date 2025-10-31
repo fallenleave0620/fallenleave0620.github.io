@@ -1,127 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="介绍科学上网的相关技术，包括VPN、机场订阅、开源代理软件及协议等。" />
+    <meta name="author" content="Anonymous" />
+    <title>科学上网 - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .note {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .section-heading {
+            margin-top: 30px;
+            font-size: 1.8rem;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Page Header-->
+    <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="post-heading">
+                        <h1>科学上网</h1>
+                        <h2 class="subheading">探索互联网自由访问的技术与工具</h2>
+                        <span class="meta">
+                            Posted by
+                            <a href="#!">Anonymous</a>
+                            on October 31, 2025
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Post Content-->
+    <article class="mb-4">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <p class="note">相关内容仅用于介绍相关技术，可能有错漏，请自行辨别。</p>
+
+                    <h2 class="section-heading">第一阶段：使用VPN等工具</h2>
+                    <p>通过VPN等工具连接互联网，例如：</p>
+                    <ul>
+                        <li><strong>ExpressVPN</strong>：价格较高。</li>
+                        <li>其他VPN：需谨慎选择，避免使用可能存在安全风险的免费VPN（可能“送中”）。</li>
                     </ul>
+                    <p class="note">注意：部分手机可能需要断网或关闭安装监控才能安装VPN应用。手机安装器可能缓存黑名单，导致无法安装或被识别为木马。VPN稳定性可能较差，存在不定时不可用的情况。</p>
+
+                    <h2 class="section-heading">第二阶段：自建或购买机场订阅</h2>
+                    <p><strong>自建</strong>：YouTube上有许多相关教程，建议参考。</p>
+                    <p><strong>购买机场订阅</strong>：推荐月付或季付，不建议年付（除非预算充足）。流程如下：</p>
+                    <ol>
+                        <li>购买订阅。</li>
+                        <li>下载相关软件（机场自研软件或开源代理软件）。</li>
+                        <li>导入订阅即可使用。</li>
+                    </ol>
+
+                    <h3>2.1 附加说明</h3>
+                    <p>机场自研软件：具体使用方式请参考机场提供的说明。</p>
+                    
+                    <h4>一、开源代理软件</h4>
+                    <p>以下为常见的开源代理软件（包含GUI页面或通过终端命令启动）：</p>
+                    
+                    <h5>1. Sing-box</h5>
+                    <ul>
+                        <li><strong>Sing-box</strong>：通过终端命令启动（CMD/PowerShell/zsh）。</li>
+                        <li><strong>Nekobox</strong>：Android平台。</li>
+                        <li><strong>Hiddfy</strong>：支持Windows、Android、iOS。</li>
+                        <li><strong>Box for Magisk</strong>：Android，包含GUI管理软件（Magisk模块，详见下文）。</li>
+                        <li><strong>神秘</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Surfing</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Box 4Magisk</strong>：Android，包含GUI管理软件（Magisk模块，详见下文）。</li>
+                        <li><strong>Sing-box for Android</strong>：Sing-box官方客户端（Android）。</li>
+                        <li><strong>特点</strong>：运行内存占用低，配置文件不易读，文档更新频繁，不同版本配置文件可能不兼容。</li>
+                    </ul>
+
+                    <h5>2. Mihomo（原Clash.Meta）</h5>
+                    <ul>
+                        <li><strong>Mihomo For Android</strong>：Mihomo官方客户端（Android）。</li>
+                        <li><strong>Clash Verge</strong>：支持Windows、Linux、MacOS。</li>
+                        <li><strong>Box For Magisk</strong>：Android，包含GUI管理软件（Magisk模块，详见下文）。</li>
+                        <li><strong>Box 4</strong>：Android，contains GUI management software (Magisk module, see below).</li>
+                        <li><strong>Surfing</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>特殊说明</strong>：Clash For Windows（原版Clash已停更，不推荐）。</li>
+                        <li><strong>特点</strong>：运行内存占用较高，配置文件（YAML格式）清晰可读，配置较Sing-box简单，兼容性好。</li>
+                    </ul>
+
+                    <h5>3. Xray（V2ray扩展版本）</h5>
+                    <ul>
+                        <li><strong>Box For Magisk</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Box 4</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Surfing</strong>：Android（Magisk模块，详见下文）。</li>
+                    </ul>
+
+                    <h5>4. V2fly</h5>
+                    <ul>
+                        <li><strong>Box For Magisk</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Box 4</strong>：Android（Magisk模块，详见下文）。</li>
+                        <li><strong>Surfing</strong>：Android（Magisk模块，详见下文）。</li>
+                    </ul>
+
+                    <h4>二、开源代理核心</h4>
+                    <ol>
+                        <li>Sing-box</li>
+                        <li>Mihomo
+                            <ul>
+                                <li>Mihomo Smart（非官方分支）</li>
+                            </ul>
+                        </li>
+                        <li>Xray</li>
+                        <li>V2fly</li>
+                        <li>其他</li>
+                    </ol>
+
+                    <h4>三、开源代理协议</h4>
+                    <ol>
+                        <li><strong>VMess</strong>：可能已被识别，需同步时间。</li>
+                        <li><strong>VLess</strong>：需同步时间。</li>
+                        <li><strong>Hysteria1</strong>：可能已被识别，可能因运营商UDP策略导致体验差。</li>
+                        <li><strong>Hysteria2</strong>：可能已被识别，可能因运营商UDP策略导致体验差。</li>
+                        <li><strong>Trojan</strong>：可能已被识别。</li>
+                        <li><strong>Trojan-go</strong>：可能已被识别。</li>
+                        <li><strong>Shadowsocks</strong>：可能已被识别，旧版协议已停止更新。</li>
+                        <li><strong>AnyTLS</strong>：新协议，效果未知。</li>
+                        <li>其他</li>
+                    </ol>
+
+                    <h4>四、本机网络代理</h4>
+                    <ol>
+                        <li><strong>SOCKS</strong>：支持Linux、MacOS、Windows、Android（设置端口号、用户名[可选]、密码[可选]）。</li>
+                        <li><strong>HTTP</strong>：支持Linux、MacOS、Windows、Android（设置端口号、用户名[可选]、密码[可选]）。</li>
+                        <li><strong>Mixed</strong>：包含SOCKS4、SOCKS4A、SOCKS5、HTTP（支持Linux、MacOS、Windows、Android，设置端口号、用户名[可选]、密码[可选]）。</li>
+                        <li><strong>Tun</strong>：支持Linux、MacOS、Windows、Android（可设置网卡名[可选]）。</li>
+                        <li><strong>Redirect</strong>：支持Linux、MacOS、Android。</li>
+                        <li><strong>TProxy</strong>：支持Linux、Android（设置端口号，透明代理）。</li>
+                    </ol>
+
+                    <h4>五、主流ROOT实现</h4>
+                    <p class="note">注意：ROOT操作有风险，如无特殊需求可使用LKM（Loadable Kernel Module）。</p>
+                    <ol>
+                        <li><strong>KernelSU</strong>
+                            <ul>
+                                <li>OverlayFS挂载（可能导致存储空间显示异常）。</li>
+                                <li><strong>SukiSU</strong>：支持OverlayFS（新版可能需特定模块）或MagicMount，需编译并刷入含SUFUS的内核，可实现内核级隐藏。</li>
+                                <li><strong>KernelSU Next</strong>：支持MagicMount。</li>
+                                <li><strong>注意</strong>：在Android内核6.12上可能存在问题。</li>
+                            </ul>
+                        </li>
+                        <li><strong>Magisk</strong>
+                            <ul>
+                                <li><strong>Magisk Alpha</strong></li>
+                                <li><strong>KisuneMagisk</strong>：已于2025年8月25日归档。</li>
+                            </ul>
+                        </li>
+                        <li><strong>APatch</strong></li>
+                        <li>其他</li>
+                    </ol>
+
+                    <h4>六、Magisk模块</h4>
+                    <p class="note">注意：未知模块存在风险，请谨慎刷入。KernelSU和APatch一般可使用Magisk模块（除非特别注明）。使用方法：获取ROOT权限后，下载模块，刷入并重启。</p>
                 </div>
             </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="post-heading">
-                            <h1>Man must explore, and this is exploration at its greatest</h1>
-                            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                            <span class="meta">
-                                Posted by
-                                <a href="#!">Start Bootstrap</a>
-                                on August 24, 2023
-                            </span>
-                        </div>
-                    </div>
+        </div>
+    </article>
+    <!-- Footer-->
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2025</div>
                 </div>
             </div>
-        </header>
-        <!-- Post Content-->
-        <article class="mb-4">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-                        <h2 class="section-heading">The Final Frontier</h2>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-                        <h2 class="section-heading">Reaching for the Stars</h2>
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
